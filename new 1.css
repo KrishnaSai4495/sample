@@ -1,0 +1,204 @@
+body
+{
+	background-color:grey;
+	color: black;
+	font-family: Arial, Helvetica,serif;
+	font-size:20px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;/* this take about all the link in the html page by this it give type of text decoration*/
+	color: purple;/*the clor of the link*/
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color: blue;
+}
+p{
+	color: black;
+	font:bold 15px Arial,Helevetica,sans-serif;
+	line-height: 1.9em;
+	
+
+}
+.container{
+	width:100%;
+	margin: auto;
+
+}
+.box-1 {
+	background-color: yellow;
+	color: grey;
+
+	border-right:5px red solid;
+	border-left:5px red solid;
+	border-top:5px red solid;
+	border-bottom:5px red solid;
+
+}
+.box-1 h1{
+	text-align: center;
+	font-family: Tahoma;
+	font-weight:500;
+	font-style: bold;
+	text-decoration:underline;/*type of text in h1*/
+	text-transform:uppercase;/*which type*/
+	letter-spacing: 0.6px;/*letter spacing*/
+	word-spacing: 0.1em;/*word spacing*/
+
+}
+.box-2
+{
+	background-color:pink;/*background color*/
+	color:yellow;/*text color*/
+	border:5px blue solid;
+	<line-height: 1.9em;
+	width: 60%;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:50px;
+	padding-right:20px;
+
+	margin-top:50px;
+	margin-bottom:60px;
+	margin-left:90px;
+	margin-right:80px;
+}
+.box-3{
+	background-color: orange;
+	color: blue;
+	border: 5px dotted black ;
+	padding:50px;
+	margin:50px;
+	
+}
+.box-3{
+	text-align: center;
+}
+.catagory{
+	background-color:gold ;
+	color: blue;
+	border: 5px  black solid ;
+	border-radius:50px;/*border radius edges curve */
+	padding:50px;
+	margin:50px;
+}
+.catagory h2{
+	text-align: center;
+}
+.catagory ul{ /*ul means the list behaviour*/
+	padding:0px;
+	list-style: square;
+}
+.catagory li{
+	padding: 13px;
+	border-bottom:dotted 5px black;
+	list-style-image: url('E:\4495 css\image.jpg.');/* image at uses of square*/
+}
+.krishna h3{
+	background-color: red;
+	color: gold;
+	border:5px black dotted;
+	padding:10px;
+	margin:11px;
+}
+.krishna h3{
+	text-align: center;
+	border-radius: 50px;
+}
+.mycssform { /* this works on form*/
+	background-color: green;
+	color: red;
+	padding: 20px;
+	margin: 20px
+}
+.mycssform input/*[type=text]by this it allows the text*/{/*this take care sabout the the total inputs in the form*/
+	padding:8px;
+	width:20%;
+}
+
+.mycssform input[type="button"]{/* button code*/
+	background-color: black;
+	color:red;
+	padding:2px;
+	margin: 2px;
+	border: none;
+
+}
+
+.blocks{
+	background:pink;
+	float:left;
+	width: 33.3%;	
+	border: 1px solid black;
+   margin: 10px;
+   	
+}
+
+
+#main-block{
+	background-color: red;
+	float: left;
+	width: 70%;
+	border:2px  dotted  black;
+}
+
+#side-bar{
+	background: yellow;
+	float: left;
+	width: 20%;
+	/*box-sizing: border-box;*/
+}
+.p-box{
+	width:800px;
+	height: 500px;
+	border: 1px solid black;
+	mask-top:30px;
+	position: relative;
+	background-image:url(E:\4495 css\image.jpg.);
+	background-position: 100px 200px;/*it helps to adjust the image*/
+	background-repeat: no-repeat;/*if place is there and image sis shoter then it will repeate teh image to avoid this it used*/
+	background-position: center center;/*it is used to fix the position horitozontal and vertical*/
+
+}
+.p-box h1{
+	color: yellow;
+	position:absolute;
+	top:100px;
+	left:50px;
+}
+.p-box h2{
+	color: yellow;
+	position:absolute;
+	bottom: :100px;
+	right:50px;
+}
+
+.fix-me
+{
+	position:fixed;
+	top:400px;
+}
+.mylist li:first-child{
+	background:red;
+
+}
+.mylist li:last-child{
+	background:pink;
+
+}
+.mylist li:nth-child(even){
+	background:yellow;
+}
+.mylist li:nth-child(odd){
+	background:grey;
+}
+.mylist:active{
+	color:red;
+}
+.container{
+	display: flex;
+}
